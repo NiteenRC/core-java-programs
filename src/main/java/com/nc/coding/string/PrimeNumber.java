@@ -3,7 +3,7 @@ package com.nc.coding.string;
 public class PrimeNumber {
 
 	public boolean isPrime(int num) {
-		if (num == 0 && num == 1) {
+		if (num == 0 || num == 1) {
 			return false;
 		}
 

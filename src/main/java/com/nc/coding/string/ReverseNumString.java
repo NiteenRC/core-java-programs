@@ -31,17 +31,6 @@ public class ReverseNumString {
 		return builder.toString().trim();
 	}
 
-	public String reverseEachStringByStringConcat1(String s) {
-		String[] arr = s.split("\\s");
-		String res = "";
-		for (int i = 0; i < arr.length; i++) {
-			StringBuilder builder = new StringBuilder(arr[i]);
-			builder.reverse();
-			res += builder + " ";
-		}
-		return res.trim();
-	}
-
 	public int reverseNumber(int n) {
 		int rev = 0;
 
