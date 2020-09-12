@@ -42,12 +42,4 @@ public class ReverseNumStringTest {
 		int reverseRes = reverseString.reverseNumber(1234);
 		assertEquals(4321, reverseRes);
 	}
-	
-	@Test
-	public void reverseNumber1Test() {
-		int reverseRes = reverseString.reverseNumber(1534236469);
-		//assertEquals(0, reverseRes);
-	}
-	
-	
 }
